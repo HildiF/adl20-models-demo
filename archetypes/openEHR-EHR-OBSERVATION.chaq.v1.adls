@@ -34,6 +34,17 @@ definition
                                             }
                                         }
                                     }
+                                    CLUSTER[id9] occurrences matches {1} matches {    -- Arising
+                                        items matches {
+                                            ELEMENT[id11] occurrences matches {1} matches {    -- Standing up
+                                                value matches {
+                                                    DV_CODED_TEXT[id12] matches {
+                                                        defining_code matches {[ac3]}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -104,6 +115,26 @@ terminology
             ["ac2"] = <
                 text = <"Dressing">
                 description = <"Dressing value set">
+            >
+            ["id9"] = <
+                text = <"Arising">
+                description = <"Arising">
+            >
+            ["at9"] = <
+                text = <"Without difficulty">
+                description = <"Without difficulty sdakllskdas">
+            >
+            ["at10"] = <
+                text = <"With some difficulty">
+                description = <"With some difficulty a;ldlksaldasd">
+            >
+            ["ac3"] = <
+                text = <"Standing up">
+                description = <"standing up value set">
+            >
+            ["id11"] = <
+                text = <"Standing up">
+                description = <"Standing up">
             >
         >
     >
