@@ -25,7 +25,13 @@ definition
                                 items matches {
                                     CLUSTER[id6] occurrences matches {1} matches {    -- Dressing and grooming
                                         items matches {
-                                            ELEMENT[id7] occurrences matches {1}     -- Dress
+                                            ELEMENT[id7] occurrences matches {0..1} matches {    -- Dress
+                                                value matches {
+                                                    DV_CODED_TEXT[id8] matches {
+                                                        defining_code matches {[ac2]}
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -82,6 +88,22 @@ terminology
             ["ac1"] = <
                 text = <"Dressing ability">
                 description = <"sajldlkjasdkjaslkd">
+            >
+            ["at6"] = <
+                text = <"Without any difficulty">
+                description = <"Without any difficulty fdfsdfdfsdf">
+            >
+            ["at7"] = <
+                text = <"With some difficulty">
+                description = <"With some difficulty asdksdlkas">
+            >
+            ["at8"] = <
+                text = <"With much difficulty">
+                description = <"With much difficulty sldakslad">
+            >
+            ["ac2"] = <
+                text = <"Dressing">
+                description = <"Dressing value set">
             >
         >
     >
