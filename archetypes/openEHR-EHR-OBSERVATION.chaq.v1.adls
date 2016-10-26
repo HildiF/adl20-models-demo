@@ -1,0 +1,87 @@
+archetype (adl_version=2.0.4; rm_release=1.0.2)
+    openEHR-EHR-OBSERVATION.chaq.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+
+description
+    lifecycle_state = <"unmanaged">
+    copyright = <"">
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"">
+        >
+    >
+
+definition
+    OBSERVATION[id1] occurrences matches {1} matches {    -- CHAQ
+        data matches {
+            HISTORY[id2] matches {
+                events matches {
+                    EVENT[id3] matches {    -- Any event
+                        data matches {
+                            ITEM_TREE[id4] matches {
+                                items matches {
+                                    CLUSTER[id6] occurrences matches {1} matches {    -- Dressing and grooming
+                                        items matches {
+                                            ELEMENT[id7] occurrences matches {1}     -- Dress
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        state matches {
+                            ITEM_TREE[id5] 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1"] = <
+                text = <"CHAQ">
+                description = <"CHAQ">
+            >
+            ["id3"] = <
+                text = <"Any event">
+                description = <"Any event">
+            >
+            ["id6"] = <
+                text = <"Dressing and grooming">
+                description = <"Assessment of child's ability to dress, including tying shoelaces and doing buttons.">
+            >
+            ["id7"] = <
+                text = <"Dress">
+                description = <"dlkasjkdklas">
+            >
+            ["at1"] = <
+                text = <"Without any difficulty">
+                description = <"sdkaskjdask">
+            >
+            ["at2"] = <
+                text = <"With some difficulty">
+                description = <"dkjjaskd">
+            >
+            ["at3"] = <
+                text = <"With much difficulty">
+                description = <"akdjsjd">
+            >
+            ["at4"] = <
+                text = <"Unable to do">
+                description = <"adssadsa">
+            >
+            ["at5"] = <
+                text = <"Not applicable">
+                description = <"asdasdsad">
+            >
+            ["ac1"] = <
+                text = <"Dressing ability">
+                description = <"sajldlkjasdkjaslkd">
+            >
+        >
+    >
