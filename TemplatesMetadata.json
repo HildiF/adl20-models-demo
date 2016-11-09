@@ -1,0 +1,9 @@
+{
+  "templates" : [ {
+    "id" : "openEHR-EHR-COMPOSITION.hildi_test.v1.0.0",
+    "rmType" : "COMPOSITION",
+    "name" : "Encounter",
+    "path" : "templates/openEHR-EHR-COMPOSITION.hildi_test.v1.adlt",
+    "sha" : "5186af77ba16696a066bce7166442aab627fca27"
+  } ]
+}
