@@ -216,5 +216,12 @@
     "path" : "archetypes/openEHR-EHR-SECTION.medication.v1.adls",
     "sha" : "d379bcf36aa1293b122d305a3daa87b3647ada0f",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.chaq.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "CHAQ",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.chaq.v1.adls",
+    "sha" : "3209653b9958b29daaabf8c6b7176c688a334f00",
+    "languages" : [ "en" ]
   } ]
 }
